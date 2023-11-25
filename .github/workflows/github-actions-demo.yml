@@ -5,5 +5,5 @@ jobs:
   Run-Python-Addition:
     runs-on: ubuntu-latest
     steps:
-      - run: ls -l
+      - run: echo "$(ls)"
       
